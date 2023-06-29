@@ -1,9 +1,15 @@
+COMMON_LUNCH_CHOICES=()
+
+add_lunch_combo() {
+  COMMON_LUNCH_CHOICES+=("$1")
+}
+
 # Remove these lines:
 # add_lunch_combo omni_Infinix-X663-userdebug
 # add_lunch_combo omni_Infinix-X663-eng
 # add_lunch_combo omni_Infinix-X663-user
 
 # Add these lines instead:
-COMMON_LUNCH_CHOICES += omni_Infinix-X663-userdebug
-COMMON_LUNCH_CHOICES += omni_Infinix-X663-eng
-COMMON_LUNCH_CHOICES += omni_Infinix-X663-user
+add_lunch_combo omni_Infinix-X663-userdebug
+add_lunch_combo omni_Infinix-X663-eng
+add_lunch_combo omni_Infinix-X663-user
