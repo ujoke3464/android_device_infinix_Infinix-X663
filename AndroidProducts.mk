@@ -8,6 +8,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_Infinix-X663.mk
 
+PRODUCT_NAME := omni_Infinix-X663-user
+
 COMMON_LUNCH_CHOICES := \
     omni_Infinix-X663-user \
     omni_Infinix-X663-userdebug \
