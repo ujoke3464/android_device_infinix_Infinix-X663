@@ -1,0 +1,6 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="TWRP/Infinix X663" path="device/omni_Infinix-X663" remote="github" revision="twrp-3.5.0_10" />
+    <!-- Add other projects as needed -->
+</manifest>
